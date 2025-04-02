@@ -97,11 +97,11 @@ button {
 
 .icons {
   display: inline-block;
-  width: 100%;
+  width: 85%;
   padding-left: 45px;
 
   img {
-    height: 22px; 
+    height: 20px; 
     width: 40px;
     object-fit: none;
   
@@ -191,6 +191,15 @@ dialog {
 
 dialog::backdrop {
   background-color: rgb(0, 0, 0, 0.3);
+}
+
+.left-panel {
+  display: grid;
+}
+
+.username {
+  margin-bottom: 60px;
+  padding-top: 25px;
 }
 
 

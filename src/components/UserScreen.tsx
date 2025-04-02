@@ -21,7 +21,7 @@ function UserScreen({
 }) {
   return (
     <>
-      <div style={{ marginBottom: '60px', paddingTop: '25px'}}>Hi {customer.name}!</div>
+      <div className="username">Hi {customer.name}!</div>
       {showBalance ? (
         <div>
           <div>
@@ -41,7 +41,7 @@ function UserScreen({
               </strong>
             </section>
           </div>
-          <div>
+          <div className="left-panel">
             <section className="check-pin-r">{""}</section>
             <section className="check-pin-r">{""}</section>
             <section className="check-pin-r">Back</section>
@@ -55,7 +55,7 @@ function UserScreen({
               <section className="check-pin">Withdraw</section>
               <section className="check-pin">Deposit</section>
             </div>
-            <div>
+            <div className="left-panel">
               <section className="check-pin-r">Exit</section>
               <section className="check-pin-r">Balance</section>
               <section className="check-pin-r">Re-Enter Pin</section>
