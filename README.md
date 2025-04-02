@@ -46,7 +46,23 @@ The instalation is a simple process, just clone the repository and follow this g
 
 4. I did not include a NodeJS + Express server configuration because I found json-server library so I decided to include it in this project. There are other options, like a DataBase Cloud server but more time is required in order to achieve it.
 
-If you have any doubt, please reachme at jijimenezf@hotmail.com.
+## Data
+
+The information for getting the user information and for applying the changes related to both withdrawal and deposit is stored in db.json file.
+
+However, I want to share with you the PIN for every user and the card type for that user 
+
+
+| PIN                        | Card Type          | 
+| -------------------------- | ------------------ |
+| 2025                       | VISA               |
+| 1997                       | MASTERCARD         |
+| 1784                       | PLUS               |
+| 2401                       | STAR               |
+| 1504                       | PULSE              |
+| 0384                       | MAESTRO            |
+
+If you have any doubt, you can send an email to jijimenezf@hotmail.com.
 Thanks!
 
 # Casetext Homework Assignment
